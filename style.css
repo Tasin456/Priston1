@@ -132,7 +132,7 @@ nav ul li a:hover{
 .home{
     margin-top: 1vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.61), rgba(3, 0, 0, 0.685)),  url(slide1.jpg);
-    height: 119vh; 
+    height: 100vh; 
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
