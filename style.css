@@ -1,0 +1,922 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+ 
+ 
+   
+}
+/* header */
+
+
+.progress{
+    height: 0.4vh;
+    background-color: chocolate;
+    animation-name: bar;
+    animation-iteration-count: 1;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+}
+@keyframes bar {
+    0%{
+        width: 0;
+    }
+
+    50%{
+        width: 60%;
+    }
+    100%{
+        width: 100%;
+    }
+    
+}
+header{
+   height: 12vh;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    box-shadow: 0px 8px 16px 0px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    
+
+  
+}
+.dropbtn{
+    color: white;
+    position: relative;
+    display: inline;
+    transition: 0.5s;
+    cursor: pointer;
+  
+
+}
+.dropbtn:hover{
+    color: #fea116;
+}
+.dropdown-content a{
+    display: block;
+    color: black;
+    padding: 12px 16px;
+    transition: 0.5s;
+    border: 0.1vh solid black;
+    
+  
+   
+    
+}
+.dropdown-content a:hover{
+    background-color: #121A37;
+    color: white;
+    font-weight: normal;
+}
+.dropdown-content{
+    display: none;
+    box-shadow: 0px 8px 16px 0px;
+    background-color: #fff;
+    transition: 0.5s;
+    min-width: 160px;
+    position: absolute;
+    border: 0.1vh solid white;
+    z-index: 5;
+
+
+
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+    color: white;
+    
+}
+
+.img1{
+    height: 10vh;
+    margin-left: 5vw;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+nav ul li{
+    display: inline-block;
+    
+}
+.dropdown{
+    display: inline-block;
+    color: black;
+    
+}
+nav ul li a{
+    color: black;
+    padding: 12px 34px;
+    margin-right: 3vw;
+    transition: 0.5s;
+}
+
+nav ul li a:hover{
+    color: #fea116;
+}
+
+main{
+    overflow-x: hidden;
+} 
+/* homepage */
+.home{
+    margin-top: 1vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.61), rgba(3, 0, 0, 0.685)),  url(slide1.jpg);
+    height: 88vh; 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+   justify-content: center;
+    align-items: left;
+    flex-direction: column;
+   
+   
+      
+
+      
+   
+   
+}
+.homepage{
+    margin-left: 7vw;
+    animation: bounceInDown;
+    animation-duration: 2s;
+}
+.text1{
+    color: white;
+    font-weight: bold;
+    font-size: 8vh;
+    word-spacing: 0.1cm;
+    letter-spacing: 0.5mm;
+}
+.title1{
+    color: #fea116;
+    font-weight: bolder;
+    font-size: 7vh;
+    margin-left: 2vw;
+    margin-top: 1vh;
+}
+.text2{
+    color: white;
+    margin-top: 1vh;
+  letter-spacing: 0.1mm;
+    
+    line-height: 5vh;
+}
+.btn1{
+    margin-top: 5vh;
+    padding: 16px 45px;
+    background-color: #F35A14;
+    color: #FEEEE6;
+    border: transparent;
+    border-radius: 1vh;
+    cursor: pointer;
+    transition: 1s;
+   
+}
+.btn1:hover{
+    background-color: white;
+    color: black;
+}
+.text3{
+    font-weight: bolder;
+   font-size: 2.5vh;
+  letter-spacing: 0.1mm;
+    
+    word-spacing: 0.1mm;
+}
+
+
+/* about page */
+
+.aboutus{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    animation-duration: 2s;
+
+    
+   
+    
+}
+.welcome, .priston{
+    margin-top: 17vh;
+    margin-bottom: 15vh;
+   margin-left: 4vw;
+}
+.title2{
+    color: #F35A14;
+}
+
+.text4{
+    font-size: 7vh;
+    font-weight: bolder;
+    margin-top: 2vh;
+
+}
+.text5{
+    font-size: 6vh;
+    font-weight: bold;
+    word-spacing: 0.1cm;
+}
+.title3{
+    color: #F35A14;
+    font-weight: 3000;
+    margin-top: 1vh;
+    font-size: 5vh;
+}
+
+.text6{
+    margin-top: 2vh;
+    word-spacing: 0.1cm;
+    margin-bottom: 2vh;
+    font-weight: lighter;
+}
+.work{
+    display: flex;
+    flex-direction: row;
+    margin-top: 6vh;
+   
+
+    
+}
+.text7{
+    margin-top: 3vh;
+    margin-right: 4vw;
+}
+.text8{
+    margin-top: 3vh;
+    margin-right: 4vw;
+
+}
+.img3{
+    width: 80%;
+margin-left: 10%;
+margin-bottom: 10vh;
+}
+
+/* sales */
+.sales{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(giphy.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    
+}
+.engineering, .products, .industrial, .representation{
+    background-color: white;
+    height: 50vh;
+    width: 40vw;
+    margin: 5vh 3vw;
+    border-radius: 1vh;
+    text-align: center;
+    transition: 1s;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+
+}
+.title5{
+ margin-top: 3vh;
+ font-size: 4vh;
+}
+#icon7{
+    font-size: 7vh;
+    margin-top: 5vh;
+   
+transition: 1s;
+    
+}
+#icon7:hover{
+    
+    transform: rotatex(360deg);
+}  
+.text9{
+    margin-top: 3vh ;
+    font-size: 2.5vh;
+}
+.text10{
+   margin-top: 9vh ;
+   font-size: 2.5vh;
+   margin-bottom: 2vh;
+}
+#icon7{
+    color: #F35A14;
+}
+
+
+.engineering:hover{
+    background-color: #F35A14;
+    color: white;
+}
+.products:hover{
+    background-color: #F35A14;
+    color: white;
+}.representation:hover{
+    background-color: #F35A14;
+    color: white;
+}.industrial:hover{
+    background-color: #F35A14;
+    color: white;
+}
+.engineering:hover #icon7{
+    
+    color: white;
+}
+.products:hover #icon7{
+  
+    color: white;
+}.representation:hover #icon7{
+  
+    color: white;
+}.industrial:hover #icon7{
+   
+    color: white;
+}
+.title8{
+    font-size: 4vh;
+    color: #F35A14;
+    font-weight: bold;
+    margin-top: 3vh;
+    margin-left: 6vw;
+}
+
+.title9{
+    font-size: 6vh;
+    color: black;
+    font-weight: bold;
+    margin-top: 2vh;
+    margin-left: 9vw;
+    margin-bottom: 7vh;
+}
+
+/* latest projects */
+.latestprojects{
+    margin-bottom: 7vh ;
+}
+.projects{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: 3vw;
+    margin-left: 3vw;
+  
+   
+    
+    
+}
+.construct, .construct1, .construct2, .construct3, .construct4, .construct5, .construct6, .construct7  {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    transition: 1s;
+    
+
+}
+ .construct:hover{
+    transform: scale(1.1);
+} 
+.construct1:hover{
+    transform: scale(1.1);
+} 
+.construct2:hover{
+    transform: scale(1.1);
+} 
+.construct3:hover{
+    transform: scale(1.1);
+} 
+.construct4:hover{
+    transform: scale(1.1);
+} 
+.construct5:hover{
+    transform: scale(1.1);
+} 
+.construct6:hover{
+    transform: scale(1.1);
+} 
+.construct7:hover{
+    transform: scale(1.1);
+} 
+
+.img6{
+    border-radius: 2vh;
+
+}
+
+
+.construct::before{
+    display: block;
+    content: 'Construction  And Engineering';
+    background-color: white;
+    position: absolute;
+    height: 9vh;
+    width: 14vw;
+    padding: 2vh 2vw;
+    border-radius: 1vh;
+
+}
+.construct1::before{
+    display: block;
+    content: 'Industry Power Grid';
+    background-color: white;
+    position: absolute;
+    height: 9vh;
+    width: 14vw;
+    padding: 2vh 2vw;
+    border-radius: 1vh;
+
+}.construct2::before{
+    display: block;
+    content: 'Chemical Research Center';
+    background-color: white;
+    position: absolute;
+    height: 9vh;
+    width: 14vw;
+    padding: 2vh 2vw;
+    border-radius: 1vh;
+
+}.construct3::before{
+    display: block;
+    content: 'Chemical Research Center';
+    background-color: white;
+    position: absolute;
+    height: 9vh;
+    width: 14vw;
+    padding: 2vh 2vw;
+    border-radius: 1vh;
+
+}.construct4::before{
+    display: block;
+    content: 'Industry Construction';
+    background-color: white;
+    position: absolute;
+    height: 9vh;
+    width: 14vw;
+    padding: 2vh 2vw;
+    border-radius: 1vh;
+
+}.construct5::before{
+    display: block;
+    content: 'Ship Building Industry';
+    background-color: white;
+    position: absolute;
+    height: 9vh;
+    width: 14vw;
+    padding: 2vh 2vw;
+    border-radius: 1vh;
+
+}.construct6::before{
+    display: block;
+    content: 'Chemical Research Center';
+    background-color: white;
+    position: absolute;
+    height: 9vh;
+    width: 14vw;
+    padding: 2vh 2vw;
+    border-radius: 1vh;
+
+}
+.construct7::before{
+    display: block;
+    content: 'Chemical Research Center';
+    background-color: white;
+    position: absolute;
+    height: 9vh;
+    width: 14vw;
+    padding: 2vh 2vw;
+    border-radius: 1vh;
+
+}
+.button5{
+    text-align: center;
+}
+.btn5{
+     background-color: #fea116;
+    padding: 18px 45px;
+    font-weight: bolder;
+    border: transparent;
+    border-radius: 1vh;
+    cursor: pointer;
+    transition: 1s;
+    
+
+}
+.btn5:hover{
+    background-color: #F35A14;
+}
+
+/* know more about us */
+.subscribe{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(parallax2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 9vh;
+    margin-bottom: 8vh;
+}
+.started{
+
+
+    
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text12, .button8{
+    margin-bottom: 30vh;
+    margin-top: 30vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.text13{
+    font-size: 3vh;
+    color: white;
+    font-weight: bolder;
+}
+.title10{
+    font-size: 9vh;
+    color: white;
+    font-weight: bolder;
+    margin-top: 3vh;
+}
+.text14{
+    color: white;
+    margin-top: 3vh
+}
+.button0{
+    padding: 18px 45px;
+    background-color: #fea116;
+    font-weight: bold;
+    border: transparent;
+    border-radius: 1vh;
+    cursor: pointer;
+    transition: 1s;
+
+}
+.button0:hover{
+    background-color: #F35A14;
+}
+/* dealship */
+.solution{
+    margin: 5vh 5vw;
+}
+.title11, .text16{
+    margin-left: 6vw;
+    margin-bottom: 5vh;
+    margin-top: 3vh;
+}
+.title11{
+    font-size: 6vh;
+    font-weight: bold;
+}
+.text16{
+    font-size: 4vh;
+    font-weight: lighter;
+}
+.deal{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+.title12{
+    margin-bottom: 10vh;
+    font-size: 5vh;
+    font-weight: bolder;
+
+   
+}
+.title13, .text17, .title14, .title15, .text18, .text19 {
+    margin-top: 3vh;
+}
+.hr2{
+    margin-top: 3vh;
+    opacity: 0.3;
+}
+/* client says */
+
+.clientsays{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),  url(giphy.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    
+}
+
+.client{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+}
+.say{
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 10vh;
+    font-size: 6vh;
+    padding-top: 6vh;
+    font-weight: bolder;
+}
+.mendela, .jhonson{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 30vh;
+}
+.review{
+    color: white;
+}
+
+.title17{
+    margin-left: 4vw;
+    margin-bottom: 4vh;
+}
+.review1{
+    margin-left: 4vw;
+    line-height: 1.75;
+}
+.title18{
+    margin-left: 4vw;
+    margin-bottom: 4vh;
+}
+.review2{
+    margin-left: 4vw;
+    line-height: 1.75;
+}
+/* FAQ */
+
+.ask{
+    display: flex;
+    justify-content: center;
+  
+    flex-direction: column;
+    margin-top: 6vh;
+    margin-bottom: 6vh;
+    margin-left: 5vw;
+}
+.ourfaq{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ .text20{
+    margin-top: 3vh;
+   margin-bottom: 3vh;
+}
+.title19, .text019{
+    text-align: center;
+    margin: 3vh;
+}
+.title19{
+    color: #F35A14;
+    font-weight: bold;
+}
+.text019{
+    font-size: 6vh;
+    font-weight: bolder;
+
+}
+/* business and technology */
+
+.business{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(parallax3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+    flex-direction: column;
+
+}
+.technology{
+    margin-top: 30vh;
+    margin-bottom: 30vh;
+    color: white;
+    margin-right: 4vw;
+    margin-left: 4vw;
+}
+
+.title21{
+    font-size: 7vh;
+    font-weight: bolder;
+    margin-bottom: 4vh;
+}
+.text21{
+    margin-bottom: 4vh;
+
+}
+.btn0learn{
+    padding: 18px 45px;
+    border: transparent;
+    border-radius: 1vh;
+    background-color: #fea116;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 1s;
+    
+}
+
+.btn0learn:hover{
+    background-color: #F35A14;
+    color: white;
+}
+
+/* latest news */
+.news{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    margin: 4vh 4vw;
+}
+.newsimg1{
+   border: transparent;
+   border-radius: 1vh;
+    cursor: pointer;
+}
+
+
+.title23, .text23{
+    text-align: center;
+
+}
+.title23{
+    color: #F35A14;
+    margin-bottom: 4vh;
+
+}
+.text23{
+    color: black;
+    font-size: 6vh;
+    margin-bottom: 8vh;
+}
+.title22, .text22{
+    text-align: center;
+    margin-bottom: 3vh;
+    margin-top: 3vh;
+}
+.button001{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10vh;
+
+
+}
+.allnews{
+    padding: 18px 45px ;
+    border: transparent;
+    border-radius: 1vh;
+    background-color: #fea116;
+    cursor: pointer;
+    transition: 1s;
+    font-weight: bolder;
+    
+
+}
+.allnews:hover{
+    background-color: #F35A14;
+}
+/* icon */
+.companyicon{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   margin-top: 5vh;
+   margin-bottom: 10vh;
+}
+.company1{
+    cursor: pointer;
+    opacity: 0.5;
+    filter: grayscale(1);
+    transition: 0.5s;
+}
+.company1:hover{
+    opacity: 1;
+    filter: grayscale(0);
+    
+}
+/* footer 1 */
+ footer{
+    overflow-x: hidden;
+} 
+.footer1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 6vh;
+  color: white;
+    background-color: #0A1024;
+
+}
+.logopris{
+    height: 50px;
+    width: 56px;
+}
+.priston02, .aboutus02, .support01, .quicklinks02, .number001{
+    margin-top: 10vh;
+    margin-bottom: 8vh;
+    margin-left: 3vw;
+    margin-right: 3vw;
+
+
+}
+.priston02{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.logopris, .text24, #icon009{
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+.text24{
+    line-height: 1.75;
+}
+#icon009{
+   margin-left: 1vw;
+   margin-right: 1vw;
+   cursor: pointer;
+   transition: 0.5s;
+   font-size: 3vh;
+}
+#icon009:hover{
+    color: #F35A14;
+}
+
+
+.li1{
+  
+    margin-top: 3vh;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.li1:hover{
+    color: #F35A14;
+}
+.number001{
+    text-align: center;
+}
+.numbertext01{
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+    font-size: 6vh;
+    color: #F35A14;
+    font-weight: bolder;
+}
+.numbertext02{
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+    font-size: 6vh;
+    color: green;
+    font-weight: bolder;
+}
+/* copyright section */
+.footer2{
+    
+    background-color: #070B1B;
+    color: grey;
+    text-align: center;
+    padding-bottom: 5vh;
+    padding-top: 5vh;
+    
+}
+
+

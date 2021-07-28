@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+@media screen and (max-width:455px) {
+
+    .title1{
+        font-size: 7vh;
+    }
+    
+
+    .text1 {
+        font-size: 6vh;
+    }
+    
+    .text2{
+        font-size: 3vh;
+    }
+    .jhonson, .mendela{
+        display: flex;
+        flex-direction: column;
+    }
+    .img10{
+        margin-bottom: 4vh;
+    }
+}
+
+@media  screen and (max-width: 545px) {
+
+    .aboutus{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    
+    }
+    .priston{
+        margin-top: 1vh;
+    }
+    .title3{
+        font-weight: bolder;
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+        font-size: 7vh;
+    }
+    .owner{
+        margin-left: 2vw;
+    }
+    
+}
+@media screen and (max-width:360px) {
+    .work{
+        display: flex;
+        flex-direction: column;
+    }
+    .owner{
+        margin-top: 5vh;
+    }
+    
+}
+@media screen and (max-width: 810px) {
+
+    .sales{
+        display: flex;
+        flex-direction: column;
+    }
+    .engineering, .industrial, .representation, .products{
+        height: 50vh;
+        width: 60vw;
+    }
+    
+}
+@media  screen and (max-width: 870px) {
+    .text10{
+        margin-top: 4vh;
+    }
+
+    .ourfaq{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+}
+@media screen and (max-width:1085px){
+
+    .construct::before{
+        display: block;
+        content: 'Construction  And Engineering';
+        background-color: white;
+        position: absolute;
+        height: 9vh;
+        width: 14vw;
+        padding: 2vh 2vw;
+        border-radius: 1vh;
+    
+    }
+    .construct1::before{
+        display: block;
+        content: 'Industry Power Grid';
+        background-color: white;
+        position: absolute;
+        height: 9vh;
+        width: 14vw;
+        padding: 2vh 2vw;
+        border-radius: 1vh;
+    
+    }.construct2::before{
+        display: block;
+        content: 'Chemical Research Center';
+        background-color: white;
+        position: absolute;
+        height: 9vh;
+        width: 14vw;
+        padding: 2vh 2vw;
+        border-radius: 1vh;
+    
+    }.construct3::before{
+        display: block;
+        content: 'Chemical Research Center';
+        background-color: white;
+        position: absolute;
+        height: 9vh;
+        width: 14vw;
+        padding: 2vh 2vw;
+        border-radius: 1vh;
+    
+    }.construct4::before{
+        display: block;
+        content: 'Industry Construction';
+        background-color: white;
+        position: absolute;
+        height: 9vh;
+        width: 14vw;
+        padding: 2vh 2vw;
+        border-radius: 1vh;
+    
+    }.construct5::before{
+        display: block;
+        content: 'Ship Building Industry';
+        background-color: white;
+        position: absolute;
+        height: 9vh;
+        width: 14vw;
+        padding: 2vh 2vw;
+        border-radius: 1vh;
+    
+    }.construct6::before{
+        display: block;
+        content: 'Chemical Research Center';
+        background-color: white;
+        position: absolute;
+        height: 9vh;
+        width: 14vw;
+        padding: 2vh 2vw;
+        border-radius: 1vh;
+    
+    }
+    .construct7::before{
+        display: block;
+        content: 'Chemical Research Center';
+        background-color: white;
+        position: absolute;
+        height: 9vh;
+        width: 14vw;
+        padding: 2vh 2vw;
+        border-radius: 1vh;
+    
+    }
+
+    .projects{
+        display: flex;
+        flex-direction: column;
+       
+    }
+   .img6{
+        height: 60vh;
+        width: 60vw;
+    }
+    .news1{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+    .news{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .newsimg1{
+        height: 50vh;
+        width: 65vw;
+    }
+     
+    
+    
+}
+
+@media screen  and (max-width:580px){
+    .construct::before{
+        display: block;
+        content: 'Construction  And Engineering';
+        background-color: white;
+        position: absolute;
+        height: 9vh;
+        width: 27vw;
+        padding: 2vh 2vw;
+        border-radius: 1vh;
+    
+    }
+    .construct1::before{
+        display: block;
+        content: 'Industry Power Grid';
+        background-color: white;
+        position: absolute;
+        height: 9vh;
+        width: 27vw;
+        padding: 2vh 2vw;
+        border-radius: 1vh;
+    
+    }.construct2::before{
+        display: block;
+        content: 'Chemical Research Center';
+        background-color: white;
+        position: absolute;
+        height: 9vh;
+        width: 27vw;
+        padding: 2vh 2vw;
+        border-radius: 1vh;
+    
+    }.construct3::before{
+        display: block;
+        content: 'Chemical Research Center';
+        background-color: white;
+        position: absolute;
+        height: 9vh;
+        width: 27vw;
+        padding: 2vh 2vw;
+        border-radius: 1vh;
+    
+    }.construct4::before{
+        display: block;
+        content: 'Industry Construction';
+        background-color: white;
+        position: absolute;
+        height: 9vh;
+        width: 27vw;
+        padding: 2vh 2vw;
+        border-radius: 1vh;
+    
+    }.construct5::before{
+        display: block;
+        content: 'Ship Building Industry';
+        background-color: white;
+        position: absolute;
+        height: 9vh;
+        width: 27vw;
+        padding: 2vh 2vw;
+        border-radius: 1vh;
+    
+    }.construct6::before{
+        display: block;
+        content: 'Chemical Research Center';
+        background-color: white;
+        position: absolute;
+        height: 9vh;
+        width: 27vw;
+        padding: 2vh 2vw;
+        border-radius: 1vh;
+    
+    }
+    .construct7::before{
+        display: block;
+        content: 'Chemical Research Center';
+        background-color: white;
+        position: absolute;
+        height: 9vh;
+        width: 27vw;
+        padding: 2vh 2vw;
+        border-radius: 1vh;
+    
+    }
+    
+}
+
+@media screen and (max-width:750px) {
+    .started{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .button8{
+        margin-top: 2vh;
+    }
+    .text12{
+        margin: 8vh 8vw;
+    }
+    
+}
+@media screen and (max-width:950px) {
+    .deal{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .img010{
+        height: 70vh;
+        width: 70vw;
+    }
+    
+}
+@media screen and (max-width:730px) {
+    .client{
+        display: flex;
+        flex-direction: column;
+    }
+    
+  
+}
+@media screen and (max-width:870px) {
+
+    .companyicon{
+        display: grid;
+        grid-template-columns: auto auto;
+       
+        
+    }
+    .company1{
+        margin: 4vh 4vw;
+    }
+}
+
+@media screen and (max-width:930px) {
+
+     .footer1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    } 
+    
+}
+
