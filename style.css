@@ -125,9 +125,9 @@ nav ul li a:hover{
     color: #fea116;
 }
 
-main{
+/* main{
     overflow-x: hidden;
-} 
+}  */
 /* homepage */
 .home{
     margin-top: 1vh;
@@ -832,9 +832,9 @@ transition: 1s;
     
 }
 /* footer 1 */
- footer{
+ /* footer{
     overflow-x: hidden;
-} 
+}  */
 .footer1{
     display: flex;
     justify-content: space-around;
