@@ -125,14 +125,14 @@ nav ul li a:hover{
     color: #fea116;
 }
 
-/* main{
+ main{
     overflow-x: hidden;
-}  */
+}  
 /* homepage */
 .home{
     margin-top: 1vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.61), rgba(3, 0, 0, 0.685)),  url(slide1.jpg);
-    height: 88vh; 
+    height: 100vh; 
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -832,9 +832,9 @@ transition: 1s;
     
 }
 /* footer 1 */
- /* footer{
+  footer{
     overflow-x: hidden;
-}  */
+}  
 .footer1{
     display: flex;
     justify-content: space-around;
